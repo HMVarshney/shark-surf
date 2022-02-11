@@ -1,0 +1,159 @@
+@font-face {
+  font-family: Horizon;
+  src: url(/assets/fonts/horizon.otf);
+}
+
+@font-face {
+  font-family: Horizon Outlined;
+  src: url(/assets/fonts/horizon_outlined.otf);
+}
+
+@font-face {
+  font-family: Glacial;
+  src: url(/assets/fonts/GlacialIndifference-Regular.otf);
+}
+
+:root {
+  --primary-color: #38b6ff;
+  font-size: 24px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  color: white;
+  font-size: 1rem;
+  font-family: Glacial;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Horizon !important;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+button {
+  border: none;
+  outline: none;
+  color: white;
+  background-color: var(--primary-color);
+  padding: 16.5px 56px;
+  border-radius: 20px;
+  font-weight: 700;
+}
+
+.main {
+  background: linear-gradient(to right, rgb(3, 3, 19) 0%, rgb(19, 18, 65) 100%);
+}
+
+.nav-link {
+  font-size: 24px;
+  font-family: Horizon;
+  color: white;
+  font-weight: 700;
+}
+
+.nav-links-container {
+  display: flex;
+}
+
+.hero {
+  background-image: url(/assets/images/2.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+/* 
+.social-icons-container {
+  position: relative;
+  top: -20px;
+} */
+
+.social-icons {
+  width: 40px;
+  height: 40px;
+  display: block;
+}
+
+.perks-image {
+  width: 200px;
+  height: 200px;
+}
+
+.partners-image {
+  width: 150px;
+  height: 171px;
+}
+
+.teams-image {
+  width: 150x;
+  height: 150px;
+}
+
+.teams-text {
+  font-weight: 700;
+}
+
+.line {
+  width: 2px;
+  height: 230px;
+  color: white;
+  background-color: white;
+  position: relative;
+  left: 11px;
+}
+
+.behind-sharks {
+  background-image: url(/assets/images/2.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 58px 0;
+}
+
+.roadmap-content {
+  margin-top: 125px;
+}
+
+.back-text {
+  font-family: Horizon Outlined !important;
+  font-size: 6rem;
+}
+
+.hero-container {
+  margin-top: 236px;
+}
+
+@media screen and (max-width: 600px) {
+  :root {
+    font-size: 18px;
+  }
+
+  .nav-links-container {
+    display: none;
+  }
+
+  .hero-container {
+    margin-top: 100px;
+  }
+
+  .hero-heading {
+    font-size: 2rem;
+  }
+}
