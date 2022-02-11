@@ -156,4 +156,14 @@ button {
   .hero-heading {
     font-size: 2rem;
   }
+
+  .back-text {
+    font-size: 4rem;
+    display: none;
+  }
+
+  .partners-image {
+    width: 120px;
+    height: 151px;
+  }
 }
