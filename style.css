@@ -15,6 +15,8 @@
 
 :root {
   --primary-color: #38b6ff;
+  --accent-color: #5ce1e6;
+  --gray-color: #d9d9d999;
   font-size: 24px;
 }
 
@@ -57,6 +59,7 @@ button {
   padding: 16.5px 56px;
   border-radius: 20px;
   font-weight: 700;
+  font-size: 24px;
 }
 
 .main {
@@ -145,13 +148,17 @@ button {
   font-weight: 700;
 }
 
+.dot {
+  color: var(--accent-color);
+}
+
 .line {
   width: 2px;
   height: 230px;
   color: white;
   background-color: white;
   position: relative;
-  left: 11px;
+  left: 17px;
 }
 
 .behind-sharks {
@@ -171,7 +178,7 @@ button {
 }
 
 .hero-container {
-  margin-top: 236px;
+  margin-top: 70px;
 }
 
 @media screen and (max-width: 600px) {

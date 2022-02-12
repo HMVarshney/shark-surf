@@ -42,7 +42,8 @@
         </header>
         <div class="container hero-container">
           <div>
-            <h1 class="hero-heading" style="max-width: 848px; width: 100%">
+            <span class="back-text" style="position: relative; left: -200px">Surf</span>
+            <h1 class="hero-heading" style="max-width: 848px; width: 100%; word-wrap: break-word;">
               Salutations surf
               <span style="color: var(--primary-color)">shark</span> society
             </h1>
@@ -76,10 +77,11 @@
                   </div>
                 </div>
               </div>
-              <div class="col-lg-4 mt-lg-0 mt-5">
+              <div class="col-lg-4 mt-lg-0 mt-5" style="position: relative;">
+                <span class="back-text" style="position: absolute; top: 50%; left: -100px; z-index: 0;">Shark</span>
                 <img
                   src="/assets/images/hero-shark.svg"
-                  style="max-width: 480px; max-height: 490px; width: 100%; height: 100%;"
+                  style="max-width: 480px; max-height: 490px; width: 100%; height: 100%; z-index: 100;"
                 />
               </div>
             </div>
@@ -98,17 +100,20 @@
                   survive. Since then, we've only encountered sharks as the
                   remaining living species on Earth.
                 </p>
+                <div style="max-width: 100%; width: 100%;">
+                  <img src="/assets/images/underline-curly.svg" />
+                </div>
               </div>
               <div class="col-lg-6">
-                <div class="d-flex justify-content-end">
+                <div class="d-flex justify-content-end mt-lg-0 mt-5">
                   <img src="/assets/images/giphy.webp"                   
-                    style="max-width: 400px; max-height: 400px; width: 100%; height: 100%;"
+                    style="max-width: 400px; max-height: 400px; width: 100%; height: 100%; border-radius: 20px;"
                   />
                 </div>
               </div>
             </div>
             <div class="row justify-content-between" style="margin-top: 80px">
-              <div class="col-lg-5">
+              <div class="col-lg-5" style="position: relative;">
                 <img
                   src="/assets/images/shark-yellow.svg"
                   style="max-width: 400px; max-height: 400px; width: 100%; height: 100%;"
@@ -137,12 +142,15 @@
       </section>
       <section class="perks" style="margin-top: 72px;">
         <div class="container">
-            <h2 style="text-align: center; color: var(--primary-color)">Perks</h2>
+            <h2 style="text-align: center; color: var(--primary-color)"><img src="/assets/images/stars.svg" width="30px" height="30px" /> Perks <img src="/assets/images/stars.svg" width="30px" height="30px" /></h2>
             <div class="row justify-content-center" style="margin-top: 72px;">
                 <div class="col-lg-4">
                     <div class="d-flex flex-column align-items-center">
                         <img src="/assets/images/pearl icon.png" class="perks-image" />
                         <h6>Exclusivity</h6>
+                        <div class="d-flex justify-content-center my-4" style="max-width: 100%; width: 100%;">
+                          <img src="/assets/images/underline-curly.svg" />
+                        </div>
                         <p>Surf Shark Society is a collection of 3333 unique Shark NFTs, which are digital collectibles on board the Solana network.</p>
                     </div>
                 </div>
@@ -150,6 +158,9 @@
                     <div class="d-flex flex-column align-items-center">
                         <img src="/assets/images/sharktank.png" class="perks-image" />
                         <h6>Membership</h6>
+                        <div class="d-flex justify-content-center my-4" style="max-width: 100%; width: 100%;">
+                          <img src="/assets/images/underline-curly.svg" />
+                        </div>
                         <p>Gain access to an exclusive crypto community (Shark Shack) that will allow you to converse with other NFT holders, and receive trading calls and giveaways.</p>
                     </div>
                 </div>
@@ -157,6 +168,9 @@
                     <div class="d-flex flex-column align-items-center">
                         <img src="/assets/images/controller icon.png" class="perks-image" />
                         <h6>P2E</h6>
+                        <div class="d-flex justify-content-center my-4" style="max-width: 100%; width: 100%;">
+                          <img src="/assets/images/underline-curly.svg" />
+                        </div>
                         <p>Get an early ticket to our future blockchain game, which will feature our very own cryptocurrency (Sharkoin) as a reward system.</p>
                     </div>
                 </div>
@@ -164,56 +178,83 @@
         </div>
         <span class="back-text" style="position: relative; left: -20px">NFT</span>
       </section>
-      <section class="roadmap container" style="color: white; margin-top: 26px;">
+      <section class="roadmap container mt-lg-0 mt-5" style="color: white; margin-top: 26px; position: relative; max-width: 100%; overflow: hidden;">
         <h2 style="text-align:center; color: var(--primary-color)">Roadmap</h2>
         <div class="d-flex justify-content-center my-3">
           <img src="/assets/images/underline-slash.svg" alt="" />
         </div>
-        <div class="d-flex justify-content-center" style="margin-top: 144px">
+        <div style="position: absolute; left: -100px;">
+          <img src="/assets/images/uzumaki-circle.svg" />
+        </div>
+        <div class="d-flex justify-content-center" style="margin-top: 144px; position: relative;">
           <div class="col-lg-2 col-2" style="color: white">
-            <span class="fa-solid fa-circle mt-2"></span>
-            <div class="line"></div>
-            <span class="fa-solid fa-circle mt-2"></span>
-            <div class="line"></div>
-            <span class="fa-solid fa-circle mt-2"></span>
-            <div class="line"></div>
-            <span class="fa-solid fa-circle mt-2"></span>
-            <div class="line"></div>
-            <span class="fa-solid fa-circle mt-2"></span>
-            <div class="line"></div>
-            <span class="fa-solid fa-circle mt-2"></span>
+            <span class="fa-solid fa-circle fa-xl dot mt-2"></span>
+            <div class="line" style="height: 320px;"></div>
+            <span class="fa-solid fa-circle fa-xl dot mt-2"></span>
+            <div class="line" style="height: 300px;"></div>
+            <span class="fa-solid fa-circle fa-xl dot mt-2"></span>
+            <div class="line" style="height: 380px;"></div>
+            <span class="fa-solid fa-circle fa-xl dot mt-2"></span>
+            <div class="line" style="height: 330px;"></div>
+            <span class="fa-solid fa-circle fa-xl dot mt-2"></span>
+            <div class="line" style="height: 330px;"  ></div>
+            <span class="fa-solid fa-circle fa-xl dot mt-2"></span>
           </div>
           <div class="col-lg-4 col-7">
-            <div>
+            <div style="position: relative;">
               <h6>Wave 1</h6>
+              <div class="my-3" style="max-width: 100%; width: 100%;">
+                <img src="/assets/images/underline-curly.svg" />
+              </div>
               <p>Whitelisted members of our discord server will be able to buy Surf Shark NFTs for a discounted price of 0.69 Solana.</p>
             </div>
             <div style="margin-top: 130px">
               <h6>Wave 2</h6>
+              <div class="my-3" style="max-width: 100%; width: 100%;">
+                <img src="/assets/images/underline-curly.svg" />
+              </div>
               <p>Full release of NFTs, non-whitelisted people on the server will now be able to purchase or mint these Sharks for 0.8 Solana</p>
             </div>
-            <div style="margin-top: 100px">
+            <div style="margin-top: 100px; position: relative;">
               <h6>Wave 3</h6>
+              <div class="my-3" style="max-width: 100%; width: 100%;">
+                <img src="/assets/images/underline-curly.svg" />
+              </div>
               <p>Launch the Home for our very own Shark Holders which will grant them access to a exclusive cryptocurrency club (Shark Shack) where there will be giveaways, cryptocurrency calls, and more.</p>
+              <div class="d-none d-lg-block" style="position: absolute; right: -200px;">
+                <img src="/assets/images/weed.svg" />
+              </div>
             </div>
             <div style="margin-top: 120px">
               <h6>Wave 4</h6>
+              <div class="my-3" style="max-width: 100%; width: 100%;">
+                <img src="/assets/images/underline-curly.svg" />
+              </div>
               <p>Start partnerships with brands that will allow Surf Shark Society Holders to receive discounts and cash rebates.</p>
             </div>
             <div style="margin-top: 120px">
               <h6>Wave 5</h6>
+              <div class="my-3" style="max-width: 100%; width: 100%;">
+                <img src="/assets/images/underline-curly.svg" />
+              </div>
               <p>Develop and launch our very own cryptocurrency (Sharkoin) to be used as the reward system token for our blockchain game (Shark Society)</p>
             </div>
             <div style="margin-top: 120px">
               <h6>Wave 6</h6>
+              <div class="my-3" style="max-width: 100%; width: 100%;">
+                <img src="/assets/images/underline-curly.svg" />
+              </div>
               <p>Develop a Play to earn blockchain game (Shark Society) where sharks will fight against each other in different minigames in exchange for our future cryptocurrency (Sharkoin)</p>
             </div>
           </div>
         </div>
+        <div style="position: relative;">
+          <img src="/assets/images/bubbles.svg" />
+        </div>
       </section>
       <section class="pertnership" style="margin-top: 144px;">
         <h1 class="back-text" style="text-align: right; position: relative; right: -20px">Community</h1>
-        <div class="container" style="margin-top: 50px;">
+        <div class="container" style="margin-top: 50px; position: relative;">
           <h2 style="text-align: center; color: var(--primary-color); word-wrap: break-word;">Partnership</h2>
           <p style="margin-top: 41px; text-align: center;">In partnership with the biggest names in the crypto space.</p>
           <div class="row justify-content-center">
@@ -278,8 +319,16 @@
               </div>
             </div>
           </div>
+          <div class="d-flex justify-content-center" style="max-width: 100%; width: 100%; margin: 103px 0;">
+            <img src="/assets/images/underline-curly.svg" />
+          </div>
         </div>
-        <h1 class="back-text" style="position: relative; left: -20px; margin-top: 188px;">Crypto</h1>
+        <div style="position: relative;">
+          <div class="back-image d-none d-lg-block" style="position: absolute; left: -18%; top: -400px">
+            <img src="/assets/images/Ellipse 11.svg" width="650px" height="650px" />
+          </div>
+          <h1 class="back-text" style="position: relative; left: -20px; margin-top: 188px;">Crypto</h1>
+        </div>
       </section>
       <section class="behind-sharks" style="margin-top: 93px;">
         <div class="container">
@@ -326,6 +375,39 @@
         </div>
       </section>
       <footer class="container py-5">
+        <div class="row justify-content-lg-center">
+          <div class="col-2">
+            <img src="/assets/images/image 7.png" alt=" " />
+          </div>
+          <div class="ms-lg-5 col-lg col-12">
+            <div class="row mt-4">
+              <div class="col">
+                <h6 style="color: var(--gray-color);">© 2021 Axis Circle LLC</h6>
+                <div class="social-icons-container mt-lg-5 mt-3">
+                  <div class="d-flex align-items-center">
+                    <span class="social-icons">
+                      <a href="https://discord.com/invite/tmgBmWxkHF" target="_blank"><img src="/assets/icons/discord.svg" width='80%' height="80%"/></a>
+                    </span>
+                    <span class="social-icons ms-5">
+                      <a href="https://www.instagram.com/surfsharksociety" target="_blank"><img src="/assets/icons/instagram.svg" width='80%' height="80%"/></a>
+                    </span>
+                    <span class="social-icons ms-5">
+                      <a href="https://twitter.com/surfsharksoc" target="_blank"><img src="/assets/icons/twitter.svg" width='80%' height="80%"/></a>
+                    </span>
+                    <span class="social-icons ms-5">
+                      <a href="https://discord.gg/tmgBmWxkHF" target="_blank"><img src="/assets/icons/facebook-square.svg" width='80%' height="80%"/></a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="col mt-3 mt-lg-0">
+                <h6 style="color: var(--gray-color);">SSS Terms & Conditions</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- <footer class="container py-5">
         <div class="row justify-content-lg-around justify-content-center">
           <div class="col">
             <img src="/assets/images/image 7.png" alt=" " />
@@ -353,7 +435,7 @@
             <p>SSS Terms & Conditions</p>
           </div>
         </div>
-      </footer>
+      </footer> -->
     </main>
 
     <script src="/index.js"></script>
