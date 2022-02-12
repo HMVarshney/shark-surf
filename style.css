@@ -59,7 +59,7 @@ button {
   padding: 16.5px 56px;
   border-radius: 20px;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 1rem;
 }
 
 .main {
@@ -102,6 +102,8 @@ button {
   width: 100%;
   background: linear-gradient(to right, rgb(3, 3, 19) 0%, rgb(19, 18, 65) 100%);
   padding: 20px 0;
+  z-index: 100;
+  margin-top: 100px;
 }
 
 .nav-mobile > span {
@@ -162,9 +164,10 @@ button {
 }
 
 .behind-sharks {
-  background-image: url(/assets/images/2.gif);
+  background-image: url(/assets/images/Shark\ Shack.png);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   padding: 58px 0;
 }
 
@@ -178,12 +181,22 @@ button {
 }
 
 .hero-container {
-  margin-top: 70px;
+  margin-top: 50px;
 }
+
+/* .surf-text {
+  position: absolute;
+  left: -200px;
+  top: -100px;
+} */
 
 @media screen and (max-width: 600px) {
   :root {
     font-size: 18px;
+  }
+
+  .hero {
+    background: none;
   }
 
   .nav-links-container {
@@ -195,7 +208,7 @@ button {
   }
 
   .hero-container {
-    margin-top: 100px;
+    margin-top: 60px;
   }
 
   .hero-heading {
@@ -204,11 +217,19 @@ button {
 
   .back-text {
     font-size: 4rem;
-    display: none;
+    max-width: 100%;
+    overflow: hidden;
+    /* display: none; */
   }
 
   .partners-image {
     width: 120px;
     height: 151px;
+  }
+
+  .surf-text {
+    position: relative;
+    left: -60px;
+    top: auto;
   }
 }

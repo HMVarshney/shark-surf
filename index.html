@@ -32,7 +32,7 @@
             </div>
           </nav>
           <nav id="nav-mobile" class="nav-mobile">
-            <span class="fa-solid fa-times" onclick="handleMobileNavToggle()"></span>
+            <!-- <span class="fa-solid fa-times" onclick="handleMobileNavToggle()"></span> -->
             <a class="nav-link-mobile" href="/">Home</a>
             <a class="nav-link-mobile" href="/">Roadmap</a>
             <a class="nav-link-mobile" href="/">Perks</a>
@@ -41,25 +41,34 @@
           </nav>
         </header>
         <div class="container hero-container">
-          <div>
-            <span class="back-text" style="position: relative; left: -200px">Surf</span>
+          <div style="position: relative;">
+            <span class="back-text surf-text">Surf</span>
             <h1 class="hero-heading" style="max-width: 848px; width: 100%; word-wrap: break-word;">
               Salutations surf
               <span style="color: var(--primary-color)">shark</span> society
             </h1>
+            <div style="position: absolute; top: 50px; right: 10%;">
+              <img src="/assets/images/weed.svg" />
+            </div>
+            <div style="max-width: 100%; width: 100%;">
+              <img src="/assets/images/underline-curly.svg" />
+            </div>
             <div class="row justify-content-lg-between justify-content-center">
               <div class="col-lg-6">
                 <button
                   style="
-                    margin-top: 144px;
+                    margin-top: 49px;
                     background-color: var(--primary-color);
                     padding: 16.5px 56px;
                     border-radius: 20px;
                   "
                 >
-                  Minting Soon
+                  <h6 class="mt-2">Minting Soon</h6>
                 </button>
                 <p style="margin-top: 29px">36days 11hrs 28min</p>
+                <div style="position: relative;">
+                  <img src="/assets/images/weed.svg" style="position: absolute;" />
+                </div>
                 <div class="social-icons-container" style="margin-top: 70px;">
                   <div class="d-flex align-items-center">
                     <span class="social-icons">
@@ -133,12 +142,14 @@
                   tank, we envision a future where Sharks govern the defiverse.
                   See you in Shark Shack!
                 </p>
-                <button>Get on the list</button>
+                <button><h6 class="mt-2">Get on the list</h6></button>
               </div>
             </div>
           </div>
         </div>
-        <h1 class="back-text" style="text-align: right; position: relative; right: -20px; margin-top: 144px;">Collections</h1>
+        <div style="max-width: 100%; overflow: hidden;">
+          <h1 class="back-text" style="text-align: right; position: relative; right: -20px; margin-top: 144px;">Collections</h1>
+        </div>
       </section>
       <section class="perks" style="margin-top: 72px;">
         <div class="container">
