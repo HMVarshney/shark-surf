@@ -56,10 +56,10 @@ button {
   outline: none;
   color: white;
   background-color: var(--primary-color);
-  padding: 16.5px 56px;
+  padding: 0px 10px;
   border-radius: 20px;
   font-weight: 700;
-  font-size: 1rem;
+  font-size: 1.3rem;
   text-transform: uppercase;
 }
 
@@ -115,8 +115,9 @@ button {
 }
 
 .hero {
-  background-image: url(/assets/images/2.gif);
+  background-image: url(/assets/images/SharkShack.png);
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   position: relative;
 }
@@ -152,7 +153,7 @@ button {
 }
 
 .dot {
-  color: var(--accent-color);
+  color: #bbbbbb;
 }
 
 .line {
@@ -165,7 +166,7 @@ button {
 }
 
 .behind-sharks {
-  background-image: url(/assets/images/Shark\ Shack.png);
+  background-image: url(/assets/images/2.gif);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -178,18 +179,37 @@ button {
 
 .back-text {
   font-family: Horizon Outlined !important;
-  font-size: 6rem;
+  font-size: 7rem;
 }
 
 .hero-container {
   margin-top: 50px;
 }
 
-/* .surf-text {
-  position: absolute;
+.surf-text {
+  position: relative;
   left: -200px;
-  top: -100px;
-} */
+}
+
+.collections-text {
+  right: -300px;
+}
+
+.roadmap-text {
+  font-size: 1.1rem;
+}
+
+.back-bubble-image {
+  position: absolute;
+  right: -300px;
+}
+
+.footer-text {
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 700;
+  font-family: Horizon;
+}
 
 @media screen and (max-width: 600px) {
   :root {
@@ -232,5 +252,13 @@ button {
     position: relative;
     left: -60px;
     top: auto;
+  }
+
+  .collections-text {
+    right: -20px;
+  }
+
+  .back-bubble-image {
+    right: 0;
   }
 }
