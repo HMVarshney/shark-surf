@@ -67,6 +67,11 @@ button {
   background: linear-gradient(to right, rgb(3, 3, 19) 0%, rgb(19, 18, 65) 100%);
 }
 
+.header {
+  width: 80%;
+  margin: 0 auto;
+}
+
 .nav-link {
   font-size: 24px;
   font-family: Horizon;
@@ -134,8 +139,8 @@ button {
 }
 
 .perks-image {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
 }
 
 .partners-image {
@@ -179,7 +184,7 @@ button {
 
 .back-text {
   font-family: Horizon Outlined !important;
-  font-size: 7rem;
+  font-size: 8rem;
 }
 
 .hero-container {
@@ -188,7 +193,7 @@ button {
 
 .surf-text {
   position: relative;
-  left: -200px;
+  left: -350px;
 }
 
 .collections-text {
@@ -211,9 +216,23 @@ button {
   font-family: Horizon;
 }
 
+.bigdot {
+  width: 650px;
+  height: 650px;
+  border-radius: 50%;
+  background-color: #3a677d33;
+  max-width: 100%;
+  overflow: hidden;
+}
+
 @media screen and (max-width: 600px) {
   :root {
     font-size: 18px;
+  }
+
+  .header {
+    width: 90%;
+    margin: 0 auto;
   }
 
   .hero {
@@ -260,5 +279,9 @@ button {
 
   .back-bubble-image {
     right: 0;
+  }
+
+  .bigdot {
+    display: none;
   }
 }
